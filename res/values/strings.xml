@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">testProject</string>
-    <string name="titleText">Welcome to QR Authenticator</string>
-    <string name="subtitleText">A simple and secure way to transact</string>
-    <string name="startButtonText">Get started</string>
-
-    <string name="onClickToolbarAppIconToast">Hello</string>
-    <string name="onClickStartButtonToast">Welcome</string>
-</resources>
