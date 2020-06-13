@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="backgroundColor" format="color"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="subtitleTextColor" format="color"/>
+    <attr name="toolbarTitleColor" format="color"/>
+    <attr name="toolbarColor" format="color"/>
+    <attr name="preferredActionButtonColor" format="color"/>
+    <attr name="toolbarAppIcon" format="reference"/>
+    <attr name="preferredActionButtonBackground" format="reference"/>
+</resources>

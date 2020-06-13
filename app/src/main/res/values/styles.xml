@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Themes -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="LightTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/lightColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightColorPrimaryDark</item>
+        <item name="colorAccent">@color/lightColorAccent</item>
+        <item name="backgroundColor">@color/backgroundColorLight</item>
+        <item name="titleTextColor">@color/titleTextColorLight</item>
+        <item name="subtitleTextColor">@color/subtitleTextColorLight</item>
+        <item name="toolbarTitleColor">@color/toolbarTitleColorLight</item>
+        <item name="toolbarColor">@color/toolbarColorLight</item>
+        <item name="preferredActionButtonColor">@color/preferredActionButtonTextColorLight</item>
+        <item name="toolbarAppIcon">@drawable/toolbar_app_icon_light_image</item>
+        <item name="preferredActionButtonBackground">@drawable/preferred_action_button_light_selector</item>
+        <item name="android:navigationBarColor">@color/navigationBarColorLight</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/darkColorAccent</item>
+        <item name="backgroundColor">@color/backgroundColorDark</item>
+        <item name="titleTextColor">@color/titleTextColorDark</item>
+        <item name="subtitleTextColor">@color/subtitleTextColorDark</item>
+        <item name="toolbarTitleColor">@color/toolbarTitleColorDark</item>
+        <item name="toolbarColor">@color/toolbarColorDark</item>
+        <item name="preferredActionButtonColor">@color/preferredActionButtonTextColorDark</item>
+        <item name="toolbarAppIcon">@drawable/toolbar_app_icon_dark_image</item>
+        <item name="preferredActionButtonBackground">@drawable/preferred_action_button_dark_selector</item>
+        <item name="android:navigationBarColor">@color/navigationBarColorDark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+
+    <!-- styles -->
+    <style name="background">
+        <item name="android:background">?attr/backgroundColor</item>
+    </style>
+
+    <style name="titleTextStyle">
+        <item name="android:textColor">?attr/titleTextColor</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+    </style>
+
+    <style name="subtitleTextStyle">
+        <item name="android:textColor">?attr/subtitleTextColor</item>
+        <item name="android:textSize">@dimen/subtitleTextSize</item>
+    </style>
+
+    <style name="preferredActionButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">?attr/preferredActionButtonColor</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/preferredActionButtonTextSize</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">@dimen/preferredActionButtonHorizontalPadding</item>
+        <item name="android:paddingRight">@dimen/preferredActionButtonHorizontalPadding</item>
+        <item name="android:paddingTop">@dimen/preferredActionButtonVerticalPadding</item>
+        <item name="android:paddingBottom">@dimen/preferredActionButtonVerticalPadding</item>
+        <item name="android:background">?attr/preferredActionButtonBackground</item>
+    </style>
+</resources>
